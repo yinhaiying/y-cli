@@ -1,0 +1,25 @@
+{
+  "name": "y-cli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "y": "bin/y.js",
+    "y-add": "bin/y-add.js",
+    "y-delete": "bin/y-delete.js",
+    "y-list": "bin/y-list.js",
+    "y-init": "bin/y-init.js"
+  },
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "haiyingsitan",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^7.1.0",
+    "ora": "^4.0.4"
+  }
+}
